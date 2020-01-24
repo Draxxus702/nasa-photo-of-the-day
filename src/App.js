@@ -1,15 +1,30 @@
 import React from "react";
 import "./App.css";
+import Page from './Page';
+import Header from './Header'
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+     <Header/>
+       <Page/>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+// useEffect(() => {
+//   axios
+//   .get("https://ghibliapi.herokuapp.com/films/")
+//   .then(response => {
+//     console.log(response.data);
+//     setFilms(response.data);
+//   })
+//   .catch(error => {
+//     console.log("the data was not returned", error);
+//   });
+// }, []);
