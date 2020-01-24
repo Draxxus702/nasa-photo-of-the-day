@@ -29,13 +29,13 @@ margin-right:40%;
 .nasa-imgs{
   width:30%;
 }
-a{
+.nasa-title a{
   color: #61dafb;
   text-decoration: none;
 }
 
-a:hover{
-  transition: .5s ease;
+.nasa-title a:hover{
+  transition: .75s ease;
   color:red;
 }
 
@@ -60,3 +60,38 @@ img{
   background:#282c34
 }
 
+h3{
+  color:white;
+}
+
+.card-page{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:90vh;
+  align-items: center;
+}
+
+.card-page .card-of-the-day{
+  width:50%;
+  background:black;
+}
+
+.copyright{
+  position: relative;
+  top:350px;
+}
+
+.content{
+  position: relative;
+  top:100px;
+}
+
+.date{
+  position: relative;
+  top:50px;
+}
